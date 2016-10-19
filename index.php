@@ -26,12 +26,12 @@ if($_REQUEST['Body']=='MO')
 	}
 if($_REQUEST['Body']=='P')
 	{     
-	$message2=""Our Technician Mark would visit you in the next 24 hours with all the brochures and the best prices for the Projectors\\n\n";
+	$message2="Our Technician Mark would visit you in the next 24 hours with all the brochures and the best prices for the Projectors\n\n";
 	  $message="$message2";	
 	}
 if($_REQUEST['Body']=='C')
 	{        
-$message3=""Our Technician Mark would visit you in the next 24 hours with all the brochures and the best prices for the CPUs\\n";
+$message3="Our Technician Mark would visit you in the next 24 hours with all the brochures and the best prices for the CPUs\n\n";
 	 $message="$message3";	
 	}
 if($_REQUEST['Body']=='2'||$_REQUEST['Body']=='Repair'||$_REQUEST['Body']=='repair')
